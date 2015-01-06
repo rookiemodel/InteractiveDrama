@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#bodyWrap { width:100%; height:100%; }
+#header { width:100%; position:fixed; background:#fff; top:0; left:0; z-index:10000;}
+#header .headerWrap { overflow:hidden; text-align:center; height:60px; background:#000;}
+#header .headerWrap h1 { float:left; line-height:36px; height:60px; padding:0 3.75%;}
+#header .headerWrap h1 a { text-indent:-1000px; display:block; width:96.8px; height:60px; overflow:hidden; background: url('../img/logo.png') 0 50% no-repeat; background-size:72.6px 40.2px; }
+#header .headerWrap a { display:inline-block; } 
+#header .headerWrap #btnGnb { float:right; width:21.5px; padding: 0 3.75%; height:60px; text-indent:-1000px; overflow:hidden; background: url('../img/btnGnb.png') 50% 50% no-repeat; background-size:21.5px 19px;}
+#header  #gnbWrap { width:100%; position:absolute; z-index:9999; margin:0 0 0 0; display:none; background:#fff; opacity:.95;}
+#header  #gnbWrap #gnb ul { margin:0 12px; }
+#header  #gnbWrap #gnb ul li { margin:0; border-bottom:1px solid #d9d9d9; }
+#header  #gnbWrap #gnb ul li a { padding:19px 8px 11px; display:block;}
+#header  #gnbWrap #gnb ul li img { height:12px; }
+#header  #gnbWrap .topMenu { text-align:center; padding:13px 0; border-bottom:1px solid #D9D9D9}
+#header  #gnbWrap .topMenu a { display:block; float:left; width:20%; height:22px; border-left:1px solid #cecece; box-sizing:border-box; }
+#header  #gnbWrap .topMenu a:first-child { border-left:none;}
+#header  #gnbWrap .topMenu a.lexus img { width:27px; }
+#header  #gnbWrap .topMenu a.zero img { height:28px; margin-top:-3px;}
+#header  #gnbWrap .topMenu a.facebook img { height:22px; }
+#header  #gnbWrap .topMenu a.youtube img { height:22px; }
+#header  #gnbWrap .topMenu a.pinter img { height:21px; }
+#contentWrap { width:100%; margin-top:60px;}
+#contentWrap .visual { background:#000; text-align:center; }
+#contentWrap .visual .keyVisual img { width:320px; }
+
+footer { width:100%; padding-bottom:3%; background:#262626;}
+footer img { width:100%; display:block;}
+
+/* URBAN LIVE */
+#contentWrap img {display:block;}
+#contentWrap > img {width:100%;}
+#contentWrap .area {position:relative;}
+#contentWrap .area > img {width:100%;}
+#contentWrap .section-1 > a {width:20%; display:block; position:absolute; left:6.25%; top:2%;}
+#contentWrap .section-1 > a img {width:100%;}
+#contentWrap .section-1 p {position:absolute; width:87.5%; left:6.25%; top:46%;}
+#contentWrap .section-1 p img {width:100%;}
+#contentWrap .section-1 .banners {position:absolute; bottom:5%; width:87.5%; left:6.25%; z-index:10;}
+#contentWrap .section-1 .banners a {width:48%; display:block; float:right;}
+#contentWrap .section-1 .banners a:first-child {float:left;}
+#contentWrap .section-1 .banners a img {width:100%; display:block;}
+#contentWrap .section-2 p {position:absolute; width:87.5%; left:6.25%; top:10%;}
+#contentWrap .section-2 p img {width:100%;}
+#contentWrap .section-2 > a {width:87.5%; display:block; position:absolute; left:6.25%; bottom:5%;}
+#contentWrap .section-2 > a img {width:100%;}
+#contentWrap .section-2 .video_con {position:absolute; top:42.4%;}
+#contentWrap .section-4 p img { width:100%; }
+#contentWrap .section-2 .video_con, #contentWrap .section-5 .video_con, #contentWrap .section-8 .video_con  {width:87.5%; margin-left:6.25%;}
+#contentWrap .section-2 .video_con iframe, #contentWrap .section-5 .video_con iframe, #contentWrap .section-8 .video_con iframe {width:100%; display:block;}
+#contentWrap .section-5, #contentWrap .section-8 {background:#1e1e1e;}
+#contentWrap .section-5 b, #contentWrap .section-8 b {display:block; padding:11% 0 6%;}
+#contentWrap .section-5 b img, #contentWrap .section-8 b img {width:100%}
+#contentWrap .section-5 .video_con.last, #contentWrap .section-8 .video_con.last {padding-bottom:10%;}
+#contentWrap .section-7 p {position:absolute; width:87.5%; right:11.25%; bottom:5%; width:66%;}
+#contentWrap .section-7 p img {width:100%;}
+
+/* EVENT */
+#contentWrap.evt .txt-area{visibility:hidden; position:absolute; top:0;}
+#contentWrap.evt .area {position:relative;}
+#contentWrap.evt .section-3 a {position:absolute; bottom:5%; width:87.5%; left:6.25%;}
+#contentWrap.evt .section-3 a img {width:100%;}
+#contentWrap.evt .section-4 a {position:absolute; bottom:2%; width:87.5%; left:6.25%;}
+#contentWrap.evt .section-4 a img {width:100%;}

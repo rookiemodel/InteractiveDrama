@@ -1,0 +1,51 @@
+/* interactive drama */
+#contentWrap.story-2 .section-2 {position:relative;}
+#contentWrap.story-2 .section-2 .video-con {position:absolute; top:32%; left:6.25%; width:87.5%; z-index:10}
+#contentWrap.story-2 .section-2 .video-con iframe {width:100%;}
+#contentWrap.story-2 .section-3 { background:#000; }
+#contentWrap.story-2 .section-3 p.choises { position:relative; padding-bottom:14.0625%; text-align:center; }
+#contentWrap.story-2 .section-3 p.choises .choise img { display:inline; width:31.71875%; }
+#contentWrap.story-2 .section-3 p.choises .choise.choise-y { margin-right:11.4%; }
+#contentWrap.story-2 .section-3 p.end { position:relative; padding-bottom:14.0625%; text-align:center; }
+#contentWrap.story-2 .section-3 p.end .replay img { display:inline; width:31.71875%; }
+
+.story-2 .section-2 {position:relative;}
+.story-2 .section-2 .video-con {position:absolute; top:32%; left:6.25%; width:87.5%; z-index:10}
+.story-2 .section-2 .video-con iframe {width:100%;}
+.story-2 .section-3 { background:#000; }
+.story-2 .section-3 p.choises { position:relative; padding-bottom:14.0625%; text-align:center; }
+.story-2 .section-3 p.choises .choise img { display:inline; width:31.71875%; }
+.story-2 .section-3 p.choises .choise.choise-y { margin-right:11.4%; }
+.story-2 .section-3 p.end { position:relative; text-align:center; }
+.story-2 .section-3 p.end .replay img { display:inline; width:31.71875%; }
+.story-2 .section-4 { background:#1e1e1e; }
+.story-2 .section-4 a img {width:100%;}
+.story-2 .section-4 .input_area { padding-top:6.25%; width:87.5%; margin: 0 auto; }
+.story-2 .section-4 .input_area h3 { padding-bottom:8%; }
+.story-2 .section-4 .input_area img {width:100%;}
+.story-2 .section-4 .input_area dl {padding-bottom:4%;}
+.story-2 .section-4 .input_area dl.txt_area {padding-bottom:0;}
+.story-2 .section-4 .input_area dt, .story-2 .section-4 .input_area dd {float:left;}
+.story-2 .section-4 .input_area dt {width:20%;}
+.story-2 .section-4 .input_area dt img {height:36px; width:auto;}
+.story-2 .section-4 .input_area .txt_area dt img {height:125px; width:auto;}
+.story-2 .section-4 .input_area dd {width:80%}
+.story-2 .section-4 .input_area dd input, .story-2 .section-4 .input_area dd select, .story-2 .section-4 .input_area dd textarea {border:none; padding:0; color:#666666; padding-left:10px; box-sizing:border-box;}
+.story-2 .section-4 .input_area .txt_area dd textarea{width:100%; height:125px; padding:5px 10px; box-sizing:border-box;}
+.story-2 .section-4 .input_area dd input.name {width:100%; height:36px;}
+.story-2 .section-4 .input_area dd.phone_num select {width:32%; height:36px; float:left;}
+.story-2 .section-4 .input_area dd.phone_num input {width:32%; height:36px; margin-left:2%; float:left;}
+.story-2 .section-4 .input_area dd input.attach {width:66%; height:36px; float:left;}
+.story-2 .section-4 .input_area dd .attachment {width:32%; margin-left:2%; height:36px; float:left; overflow:hidden; position:relative; background:#222;}
+.story-2 .section-4 .input_area dd .attachment input{position:absolute; top:0; z-index:10; font-size:30px; opacity:0;}
+.story-2 .section-4 .input_area dd .attachment img {height:36px; width:auto; margin:0 auto;}
+.story-2 .section-4 .input_area .agreement strong {display:block; padding: 10% 0 5%;}
+.story-2 .section-4 .input_area .agreement p {height:60px; overflow-y:scroll; background:#fff; font-size:11px; line-height:1.5; color:#666666; padding:5px 10px; box-sizing:border-box;}
+.story-2 .section-4 .input_area .agreement p span {font-weight:bold}
+.story-2 .section-4 .input_area .agreement .agree {width:25%;}
+.story-2 .section-4 .input_area .agreement .disagree {width:36.25%;}
+.story-2 .section-4 .input_area .agreement .agr-btns a {display:block; margin: 5% 0 0 10%; overflow:hidden; text-indent:-10000px; float:left; background:url('../img/str_s3_agr_2.png') 0 0 no-repeat; background-size:100% 100%;}
+.story-2 .section-4 .input_area .agreement .agr-btns a:first-child {margin:5% 0 0 0; background:url('../img/str_s3_agr_1.png') 0 0 no-repeat; background-size:100% 100%;}
+.story-2 .section-4 .input_area .agreement .agr-btns a.agree.on {background:url('../img/str_s3_agr_1_on.png') 0 0 no-repeat; background-size:100% 100%;}
+.story-2 .section-4 .input_area .agreement .agr-btns a.disagree.on {background:url('../img/str_s3_agr_2_on.png') 0 0 no-repeat; background-size:100% 100%;}
+.story-2 .section-4 .submit_btn { padding:9.375% 0 1.5625%; }
